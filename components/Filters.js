@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../assets/styles';
 
 import { Text, TouchableOpacity } from 'react-native';
-import Icon from './Icon';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const Filters = () => {
   return (

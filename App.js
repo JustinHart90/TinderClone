@@ -6,7 +6,7 @@ import HomeScreen from "./containers/Home";
 import MatchesScreen from "./containers/Matches";
 import MessagesScreen from "./containers/Messages";
 import ProfileScreen from "./containers/Profile";
-import Icon from "./components/Icon";
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const App = createBottomTabNavigator(
   {
@@ -16,8 +16,8 @@ const App = createBottomTabNavigator(
         tabBarIcon: ({ focused }) => {
           const iconFocused = focused ? "#7444C0" : "#363636";
           return (
-            <Text style={[styles.iconMenu, { color: iconFocused }]}>
-              <Icon name="explore" />
+            <Text style={[styles.iconMenu, {color: iconFocused}]}>
+              <Icon name="explore" size={12} />;
             </Text>
           );
         }
@@ -29,8 +29,8 @@ const App = createBottomTabNavigator(
         tabBarIcon: ({ focused }) => {
           const iconFocused = focused ? "#7444C0" : "#363636";
           return (
-            <Text style={[styles.iconMenu, { color: iconFocused }]}>
-              <Icon name="heart" />
+            <Text style={[styles.iconMenu, {color: iconFocused}]}>
+              <Icon name="heart" size={12} />
             </Text>
           );
         }
@@ -42,8 +42,8 @@ const App = createBottomTabNavigator(
         tabBarIcon: ({ focused }) => {
           const iconFocused = focused ? "#7444C0" : "#363636";
           return (
-            <Text style={[styles.iconMenu, { color: iconFocused }]}>
-              <Icon name="chat" />
+            <Text style={[styles.iconMenu, {color: iconFocused}]}>
+              <Icon name="chat" size={12} />
             </Text>
           );
         }
@@ -55,8 +55,8 @@ const App = createBottomTabNavigator(
         tabBarIcon: ({ focused }) => {
           const iconFocused = focused ? "#7444C0" : "#363636";
           return (
-            <Text style={[styles.iconMenu, { color: iconFocused }]}>
-              <Icon name="user" />
+            <Text style={[styles.iconMenu, {color: iconFocused}]}>
+              <Icon name="user" size={12} />
             </Text>
           );
         }

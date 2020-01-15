@@ -10,7 +10,7 @@ import {
   FlatList
 } from 'react-native';
 import CardItem from '../components/CardItem';
-import Icon from '../components/Icon';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import Demo from '../assets/data/demo.js';
 
 const Matches = () => {
