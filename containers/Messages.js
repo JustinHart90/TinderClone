@@ -10,7 +10,7 @@ import {
   FlatList
 } from 'react-native';
 import Message from '../components/Message';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 import Demo from '../assets/data/demo.js';
 
 const Messages = () => {

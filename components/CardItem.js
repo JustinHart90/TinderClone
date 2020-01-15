@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../assets/styles';
 
 import { Text, View, Image, Dimensions, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 const CardItem = ({
   actions,
@@ -76,22 +76,21 @@ const CardItem = ({
 
           <TouchableOpacity style={styles.button} onPress={() => onPressLeft()}>
             <Text style={styles.like}>
-              <Icon name="like" />
+              <Icon name="thumbs-up" />
             </Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.button}
-            onPress={() => onPressRight()}
-          >
+            onPress={() => onPressRight()}>
             <Text style={styles.dislike}>
-              <Icon name="dislike" />
+              <Icon name="thumbs-down" />
             </Text>
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.miniButton}>
             <Text style={styles.flash}>
-              <Icon name="flash" />
+              <Icon name="bolt" />
             </Text>
           </TouchableOpacity>
         </View>

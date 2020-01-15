@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../assets/styles';
 
 import { Text, View } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 const ProfileItem = ({
   age,
@@ -18,7 +18,7 @@ const ProfileItem = ({
     <View style={styles.containerProfileItem}>
       <View style={styles.matchesProfileItem}>
         <Text style={styles.matchesTextProfileItem}>
-          <Icon name="heart" /> {matches}% Match!
+          <FontAwesome5 name="heart" /> {matches}% Match!
         </Text>
       </View>
 
@@ -30,28 +30,28 @@ const ProfileItem = ({
 
       <View style={styles.info}>
         <Text style={styles.iconProfile}>
-          <Icon name="user" />
+          <FontAwesome5 name="user" />
         </Text>
         <Text style={styles.infoContent}>{info1}</Text>
       </View>
 
       <View style={styles.info}>
         <Text style={styles.iconProfile}>
-          <Icon name="circle" />
+          <FontAwesome5 name="play-circle" />
         </Text>
         <Text style={styles.infoContent}>{info2}</Text>
       </View>
 
       <View style={styles.info}>
         <Text style={styles.iconProfile}>
-          <Icon name="hashtag" />
+          <FontAwesome5 name="hashtag" />
         </Text>
         <Text style={styles.infoContent}>{info3}</Text>
       </View>
 
       <View style={styles.info}>
         <Text style={styles.iconProfile}>
-          <Icon name="calendar" />
+          <FontAwesome5 name="calendar" />
         </Text>
         <Text style={styles.infoContent}>{info4}</Text>
       </View>

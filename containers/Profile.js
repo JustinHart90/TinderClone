@@ -9,7 +9,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 import ProfileItem from '../components/ProfileItem';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 import Demo from '../assets/data/demo.js';
 
 const Profile = () => {
